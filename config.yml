@@ -1,0 +1,35 @@
+baseURL: https://www.wan-cloud.tech/
+languageCode: zh-Hant
+defaultContentLanguage: zh-hant
+title: 雲技術記錄
+theme: PaperMod
+hasCJKLanguage: true
+
+taxonomies:
+  category: categories
+  tag: tags
+
+params:
+  defaultTheme: auto
+  ShowBreadCrumbs: true
+  ShowWordCount: true
+  DateFormat: "2006年1月2日"
+  author: "雲"
+  profileMode:
+        enabled: true
+        subtitle: "記錄在工作和生活中用到的計算機技術"
+
+menu:
+  main:
+    - identifier: categories
+      name: 類別
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: 標籤
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: 文章
+      url: /archives/
+      weight: 30
